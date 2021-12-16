@@ -1,0 +1,86 @@
+.navBar{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: honeydew;
+    margin: -8px;
+}
+body{
+    background-color: gray;
+}
+.divDoc{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 850px;
+    height: 700px;
+    background-color: white;
+    margin-top: 150px;
+}
+.joinHere{
+    margin-top: 80px;
+    position: relative;
+    width: 800px;
+    height: 200px;
+    transform: translateX(-50%);
+    background-color: gray;
+    left: 50%;
+    border-radius: 20px;
+}
+.joinMenu{
+    justify-content: space-between;
+}
+.joinMenu div{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin:10px;
+    float: left;
+    background-color: black;
+    width: 200px;
+    height: 50px;
+}
+#join_there{
+    transition: border-radius .5s, border-color 1.5s,background-color;
+    border: solid 4px black;
+    border-radius: 5px;
+    background-color: gainsboro;
+    width: 200px;
+    height: 50px;
+    position:relative;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    margin: 0;
+}
+#join_there:hover{
+    transition: border-radius .5s, border-color 1.5s,background-color;
+    border: solid 4px white;
+    border-radius: 20px;
+    background-color: black;
+    cursor: pointer;
+}
+#join_there p{
+    transition: color 0.5s;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: block;
+    float: left;
+}
+#join_there:hover p{
+    transition: color 0.5s;
+    color: white;
+}
+#divNamay{
+    z-index: -1;
+    position: fixed;
+    font-size: 72px;
+    left: 50%;
+    transform: translateX(-50%);
+}
